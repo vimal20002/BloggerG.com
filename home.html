@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BloggerG.com</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header>
+      <div class="name">
+        <a href="home.html"><h1>BloggerG.com</h1></a>
+      </div>
+      <a class="h" id="active" href="home.html">Home</a>
+      <a class="as" href="about.html">About</a>
+      <a class="w" href="blog.html">Blogs</a>
+    </header>
+    <div class="typewriter">
+      <h1>Start Writing Your Blog.</h1>
+    </div>
+    <div>
+      <input type="name" placeholder="Enter Your Name" id="user" />
+      <input type="text" placeholder="dd/mm/yyyy" id="date" />
+      <input type="text" placeholder="Topic" id="topic" />
+    </div>
+    <div>
+      <textarea
+        class="ar"
+        name="blog"
+        id="txt"
+        cols="30"
+        rows="10"
+        placeholder="Write Your Blog"
+      ></textarea>
+      <button class="post" id="post">Post</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

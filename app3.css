@@ -1,0 +1,272 @@
+.name {
+    font-weight: 900;
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+  
+  }
+  .ab{
+    display: none;
+  }
+  .name a {
+    text-decoration: none;
+    color: black;
+  }
+  .h {
+    color: rgb(71, 71, 71);
+    background-color: white;
+    position: absolute;
+    font-size: 35px;
+    top: 55px;
+    left: 700px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    text-decoration: none;
+  }
+  .h:hover {
+    position: absolute;
+    top: 57px;
+    left: 700px;
+    border-left: rgb(45, 245, 145) 8px solid;
+    border-right:rgb(45, 245, 145) 8px solid;
+    border-radius: 30px;
+  }
+  .as {
+    color: rgb(71, 71, 71);
+    background-color: white;
+    position: absolute;
+    font-size: 35px;
+    top: 55px;
+    left: 850px;
+    border-radius: 40px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    text-decoration: none;
+  }
+  .as:hover {
+    position: absolute;
+    top: 57px;
+    left: 850px;
+    border-left: rgb(45, 245, 145) 8px solid;
+    border-right:rgb(45, 245, 145) 8px solid;
+    border-radius: 30px;
+  }
+  #active{
+    border-left: rgb(45, 245, 145) 8px solid;
+    border-right:rgb(45, 245, 145) 8px solid;
+    border-radius: 30px;
+  }
+  .w {
+    color: rgb(71, 71, 71);
+    background-color: white;
+    position: absolute;
+    font-size: 35px;
+    top: 55px;
+    left: 1000px;
+    border-radius: 40px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    text-decoration: none;
+  }
+  .w:hover {
+    position: absolute;
+    top: 57px;
+    left: 1000px;
+    border-left: rgb(45, 245, 145) 8px solid;
+    border-right:rgb(45, 245, 145) 8px solid;
+    border-radius: 30px;}
+  .text {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 57px;
+    left: 1320px;
+    border-radius: 20px;
+  }
+  .s {
+    position: absolute;
+    top: 57px;
+    left: 1545px;
+    font-size: 25px;
+    color: rgb(71, 71, 71);
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border: 3px solid black;
+  }
+  .s:hover {
+    font-size: 28px;
+  }
+  .ps {
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 35px;
+    border: 5px #9bf624 solid;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 70px;
+    
+    width: 1590px;
+  }
+  body {
+    /* height: 2000px; */
+    background-color: whitesmoke;
+  }
+  .del {
+    box-shadow: rgb(128, 125, 125) 2px 2px 3px 3px;
+    background-color: white;
+    position: relative;
+    float: right;
+    left: 0px;
+    font-size: 25px;
+    border-radius: 30px;
+  }
+  .del:hover {
+    box-shadow: red 2px 2px 3px 3px;
+  }
+  .nb {
+    position: absolute;
+    top: 200px;
+    display: grid;
+  
+    grid-gap: 40px;
+  }
+  .text {
+    font-size: 25px;
+  }
+  
+#srch:hover {
+    border-left: rgb(243, 80, 80) 8px solid;
+    border-right: rgb(243, 80, 80) 8px solid;
+  }
+  .name:hover {
+    border-left: rgb(243, 80, 80) 4px solid;
+    border-right: rgb(243, 80, 80) 4px solid;
+    text-shadow: rgb(114, 250, 255) 2px 2px 3px;
+    border-radius: 40px;
+  }
+  * {
+    transition: 0.3s;
+  }
+  .typewriter{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter p {
+    font-weight: 700;
+    color: rgb(39, 1, 146);
+    font-size: 35px;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  @media  screen and (max-width:1415px) {
+    .typewriter{
+      position: absolute;
+      top: 200px;
+      left: 0px;
+    }
+  }
+  @media screen and (max-width:1120px) {
+    .w {
+      color: rgb(71, 71, 71);
+      background-color: white;
+      position: absolute;
+      font-size: 35px;
+      top: 150px;
+      left: 150px;
+      border-radius: 40px;
+      border: 1px solid whitesmoke;
+      background-color: whitesmoke;
+      text-decoration: none;
+    }
+    .w:hover {
+      position: absolute;
+      top: 150px;
+      left: 150px;
+      border-left: rgb(45, 245, 145) 8px solid;
+      border-right:rgb(45, 245, 145) 8px solid;
+      border-radius: 30px;}
+      .h {
+        color: rgb(71, 71, 71);
+        background-color: white;
+        position: absolute;
+        font-size: 35px;
+        top: 150px;
+        left: 0px;
+        border: 1px solid whitesmoke;
+        background-color: whitesmoke;
+        text-decoration: none;
+      }
+      .h:hover {
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        border-left: rgb(45, 245, 145) 8px solid;
+        border-right:rgb(45, 245, 145) 8px solid;
+        border-radius: 30px;
+      }
+      .as {
+        color: rgb(71, 71, 71);
+        background-color: white;
+        position: absolute;
+        font-size: 35px;
+        top: 150px;
+        left: 300px;
+        border-radius: 40px;
+        border: 1px solid whitesmoke;
+        background-color: whitesmoke;
+        text-decoration: none;
+      }
+      .as:hover {
+        position: absolute;
+        top: 150px;
+        left: 300px;
+        border-left: rgb(45, 245, 145) 8px solid;
+        border-right:rgb(45, 245, 145) 8px solid;
+        border-radius: 30px;
+      }
+      .typewriter{
+        display: none ;
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        width: 300px;
+        height: 500px;
+      }
+      
+      .ab{
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 300px;
+        font-size: 35px;
+        color: rgb(39, 1, 146);
+      }
+    
+  }
