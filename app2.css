@@ -18,7 +18,7 @@
     position: absolute;
     font-size: 35px;
     top: 55px;
-    left: 700px;
+    left: 500px;
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
     text-decoration: none;
@@ -26,7 +26,7 @@
   .h:hover {
     position: absolute;
     top: 57px;
-    left: 700px;
+    left: 500px;
     border-left: rgb(45, 245, 145) 8px solid;
     border-right:rgb(45, 245, 145) 8px solid;
     border-radius: 30px;
@@ -37,7 +37,7 @@
     position: absolute;
     font-size: 35px;
     top: 55px;
-    left: 850px;
+    left: 650px;
     border-radius: 40px;
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
@@ -46,7 +46,7 @@
   .as:hover {
     position: absolute;
     top: 57px;
-    left: 850px;
+    left: 650px;
     border-left: rgb(45, 245, 145) 8px solid;
     border-right:rgb(45, 245, 145) 8px solid;
     border-radius: 30px;
@@ -62,7 +62,7 @@
     position: absolute;
     font-size: 35px;
     top: 55px;
-    left: 1000px;
+    left:800px;
     border-radius: 40px;
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
@@ -71,22 +71,23 @@
   .w:hover {
     position: absolute;
     top: 57px;
-    left: 1000px;
+    left: 800px;
     border-left: rgb(45, 245, 145) 8px solid;
     border-right:rgb(45, 245, 145) 8px solid;
     border-radius: 30px;}
+  
   .text {
     width: 200px;
     height: 30px;
     position: absolute;
     top: 57px;
-    left: 1320px;
+    left: 950px;
     border-radius: 20px;
   }
   .s {
     position: absolute;
     top: 57px;
-    left: 1545px;
+    left: 1200px;
     font-size: 25px;
     color: rgb(71, 71, 71);
     background-color: black;
@@ -106,7 +107,7 @@
     padding-right: 70px;
     padding-left: 70px;
     
-    width: 1510px;
+    width: 1200px;
   }
   body {
     /* height: 2000px; */
@@ -180,7 +181,7 @@
     from, to { border-color: transparent }
     50% { border-color: orange }
   }
-  @media screen and (max-width:1625px) {
+  @media screen and (max-width:1350px) {
     .ps {
       display: inline-block;
       font-size: 25px;
@@ -295,7 +296,7 @@
         border-radius: 20px;
       }
   }
-  @media screen and (max-width:1025px){
+  @media screen and (max-width:1024px){
     .ps {
       display: inline-block;
       font-size: 25px;
